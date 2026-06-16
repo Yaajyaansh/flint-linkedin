@@ -53,6 +53,12 @@ start, white-knuckle, graveyard (metaphorical)
 
 ---
 
+## Filler words
+
+Strip "like" as conversational filler in all written contexts. Natural in Michelle's speaking voice (Slack, calls, transcripts) but absent from her written voice. If you catch yourself writing "it's like X" or "they're like Y," rewrite without it.
+
+---
+
 ## Additional Banned Phrases (from founder)
 
 - "it's worth noting" / "it's important to note" / "it should be noted" / "keep in mind that"

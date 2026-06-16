@@ -77,6 +77,22 @@ The hook always stands alone — one or two lines, then a break before the post 
 
 ---
 
+## Hook formatting
+
+Hooks are lowercase. No "Big news:" or "Exciting announcement:" openers.
+
+End the hook with `:` or `...` or `⬇`. Never a period. Never a full sentence that closes the thought.
+
+---
+
+## Carousels
+
+Carousels only work when they are fully implementable. The test: how much work does the reader have to do between reading this and doing it? If the answer is "a lot," the carousel is proof, not instruction. Proof gets likes. Instruction gets saves and reposts.
+
+Do not publish carousels that only show something exists without showing how to do it. If a carousel isn't idiot-proof from first slide to last, it's not ready.
+
+---
+
 ## Formatting Don'ts
 
 - Don't use headers (`##`) in posts — this is LinkedIn, not a document

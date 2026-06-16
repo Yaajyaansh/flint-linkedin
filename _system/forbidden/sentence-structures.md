@@ -7,13 +7,21 @@ The Checker agent flags any of these. Writer never uses them.
 ## 1. Reversal Framing / False Negatives
 
 NEVER use:
-- "It's not about X, it's about Y"
+- "Not X but Y"
+- "Not because X but because Y"
 - "It's not X, it's Y"
+- "It's not just X, it's Y"
+- "It's not about X, it's about Y"
+- "It's not about X. It's about Y."
+- "Less about X and more about Y"
 - "This isn't A. It's B."
+- "X isn't Y. It's Z."
 - "X isn't the problem. Y is."
 - "Customer experience is not a cost center. It's a conversion tool."
 - "Most people think X. The truth is Y."
 - "Everyone focuses on A. The real leverage is B."
+
+These are the AI default rhythm. Restructure into two sentences or one direct claim.
 
 ---
 
