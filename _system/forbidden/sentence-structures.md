@@ -84,6 +84,29 @@ State concrete effects instead.
 
 ---
 
+## 8. Banned Opening Lines
+
+NEVER open a post with:
+- "Excited to share..." / "Thrilled to announce..." / "The biggest X in our history..."
+- "As a founder..." / "In my experience..."
+- "I've been thinking a lot about X lately."
+- Any line that states the thesis before the scene has done the work
+
+---
+
+## 9. Additional Banned Structures
+
+- "The throughline is..."
+- "It sounds X. It's not." (contrived reversal)
+- "X is the Y" as a closing definition
+- "Maybe we're the ones doing it wrong." (performed humility)
+- "What [person] really taught me was..."
+- "The [noun] isn't [abstract]. It's [other abstract]."
+- "Perhaps..." or "Maybe..." as a closing sentence
+- "Here's why I treat X as non-negotiable"
+
+---
+
 ## Hook-Specific Failures
 
 Hooks FAIL if they:

@@ -34,6 +34,20 @@ Patterns the Writer avoids. The Checker scans for these.
 
 ---
 
+## Abstract Subjects Acting Like People
+- Don't make abstract nouns the active subject of a sentence
+- Avoid lines like:
+  - "Clarity drives execution."
+  - "Good leadership is deliberate."
+  - "Accountability builds trust."
+- Recast so people are the subject and the abstract noun is a modifier, object, or prepositional phrase
+- Prefer:
+  - "Teams execute better when they're clear on the plan."
+  - "CEOs who lead deliberately get more out of their teams."
+  - "Managers build trust by owning their mistakes."
+
+---
+
 ## Structural Patterns That Signal AI
 - Ending every section with a motivational one-liner
 - Posts that follow: problem → insight → solution → CTA with perfect symmetry

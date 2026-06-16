@@ -50,6 +50,21 @@ The post should end with either:
 
 Use `—` before the final line when it's a CTA or key takeaway.
 
+**8. Only people can be active subjects.**
+People do things. Abstract nouns do not.
+
+When writing, make sure the subject of the verb is a person or a group of people (leaders, teams, employees, founders, managers, buyers), not an abstract concept.
+
+Avoid:
+- "Clarity drives execution."
+- "Good leadership is deliberate."
+- "Accountability builds trust."
+
+Do instead:
+- "Teams execute better when they're clear on the plan."
+- "CEOs who lead deliberately get more out of their teams."
+- "Managers build trust by owning their mistakes."
+
 ---
 
 ## Voice Calibration (per client)
