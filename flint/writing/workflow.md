@@ -77,3 +77,5 @@ Run this before sending. Fix any failure before submitting.
 **Launch or fundraising week:** Post twice daily including weekends. Skipping weekends kills momentum.
 
 **Involving another person:** Flag Michelle before publishing. She needs their approval.
+
+**Draft feels generic or vague, especially a testimonial/case-study post:** Don't paper over it with abstract reasoning ("without having to think about design, brand, or engineering") or a generic thesis statement ("that's what X should feel like"). Go get the real specific — ask Viktor (Flint's internal AI knowledge Slack bot) for the mechanism, the number, or the named source if it's not already in `flint/context/first-party.md`.

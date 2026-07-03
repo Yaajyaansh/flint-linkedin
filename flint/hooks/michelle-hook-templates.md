@@ -53,6 +53,8 @@ It's easy to [common action]. It's hard to [the real challenge].
 
 **When to use:** Product positioning, capability demonstrations, market education. Works whenever Michelle wants to distinguish Flint from simpler alternatives without making a direct comparison.
 
+**Contrarian hooks don't land without a personal story attached.** This structure is a claim, not a scene — it needs a specific moment (something Michelle built, saw, or did) right behind it, or it reads as a generic opinion. If there's no personal anchor available, don't force this hook.
+
 ---
 
 ## Structure 4: The number construction
@@ -118,5 +120,21 @@ This is the era of [claim]. / Hot take: [claim]. [Three named examples that prov
 - The claim must be specific enough to be debatable.
 - Follow with three concrete examples immediately. An unsubstantiated take dies.
 - Era-naming tweets get reshared because people want to be on the right side of the trend.
+- **Contrarian hooks without a personal story don't land.** A hot take stated as pure industry opinion reads as generic no matter how sharp it is. Ground it in something Michelle actually did, built, or saw firsthand — the take should feel earned by experience, not just asserted.
 
 **When to use:** Product launch tweets, market moments, reaction to industry news. Works especially well on X where reshare is the metric.
+
+---
+
+## Structure 7: Breaking news + personal proximity (the reunion hook)
+
+Opens with a major, verifiable external event that has nothing to do with Michelle directly — an acquisition, a funding round, an IPO — then immediately collapses the distance with a personal connection from years earlier. The gap between "this huge public thing" and "I was there before it was anything" is the hook.
+
+```
+[Major external event, named companies, real number]. ~[N] years ago I [specific personal connection to it].
+```
+
+**Michelle's examples:**
+- "Cursor just sold to SpaceX for $60B. ~6 years ago I met them at a startup camp by Neo."
+
+**When to use:** When a real external event (acquisition, IPO, funding announcement) intersects with Michelle's own history — a past meeting, event, or relationship. Especially strong when the post can then unpack a web of other people from that same moment who also went on to something notable — see the "Reunion / web-of-outcomes" template in `flint/writing/patterns.md`. This differs from quote-tweeting a live announcement (see `top-posts.md`, "Run, don't walk to Neo residency"): here the news is unrelated to Flint and the personal connection predates it by years, not days.

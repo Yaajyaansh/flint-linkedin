@@ -48,6 +48,26 @@ Patterns the Writer avoids. The Checker scans for these.
 
 ---
 
+## Salesy Product Mentions
+
+Salesy framing kills engagement. Never state Flint's value prop directly:
+- "If you want [outcome], try Flint" / "Flint helps you [do X] faster/easier"
+- Any sentence that could appear in a Flint ad rather than a founder's post
+- A CTA or link with no proof (number, named customer, result) stated earlier in the post to earn it
+
+Mention Flint through mechanism, action, or proof — what actually happened, what someone built, a number it produced — never through a pitch.
+
+---
+
+## Abstract Category Explanations (the vague "why")
+
+- Explaining a result by listing abstract categories instead of the real mechanism: "without having to think about design, brand, or engineering"
+- Stating what a category "should feel like" as a generic claim: "That's what AI for marketing should feel like. Something that just handles it."
+- Both are the tell that the writer doesn't have (or didn't use) the actual specific: what was already loaded, what was matched to what, what step disappeared. Name the artifact and the action, not the category it belongs to.
+- If you catch yourself writing "without having to think about X, Y, or Z" — stop. That's three abstractions standing in for one real fact. Go find the real fact (ask Viktor, Flint's internal AI knowledge Slack bot, if it's not in `flint/context/first-party.md`).
+
+---
+
 ## Structural Patterns That Signal AI
 - Ending every section with a motivational one-liner
 - Posts that follow: problem → insight → solution → CTA with perfect symmetry

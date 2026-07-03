@@ -197,16 +197,33 @@ Why it worked: "Friend density" is a phrase people remembered. Sense-of-place wr
 
 ## LinkedIn — ranked by reactions
 
-### 1. I've been waiting eight years to make this hire
+### 1. Cursor sold to SpaceX for $60B
+250 likes
+
+"Cursor just sold to SpaceX for $60B. ~6 years ago I met them at a startup camp by Neo. From this one photo:
+> Michael (on the right) started Cursor a couple years later
+> Merrill, Greg, and Tomas (at the back) started Graphite shortly after this event
+> Other attendees (like Luke Melas-Kyriazi) are now crushing it at Cursor as leading engineers
+> Graphite became one of Flint's first customers
+> Cursor acquired Graphite 6 months ago
+> Andrew Milich joined Cursor, and then SpaceX, which then acquired Cursor
+Try to find me in front of the 3 Graphite guys!
+Thank you Neo. Can't overstate how much these communities matter."
+
+Why it worked: Highest-engagement LinkedIn post in this window. Two things stack: a killer hook (a huge, verifiable, current external event — a $60B acquisition — collapsed against "~6 years ago I met them") and a packed body — one photo carries six separate named payoffs (two companies founded, an acquisition, a hire chain, Flint's own customer relationship). Each line is a separate piece of proof, so the post reads as accumulating momentum instead of one anecdote. The interactive closer ("try to find me in the photo") turns a static image into something people actually look at. Closes by crediting the community (Neo) instead of taking credit alone. See Structure 7 in `flint/hooks/michelle-hook-templates.md` and the "Reunion / web-of-outcomes" template in `flint/writing/patterns.md`.
+
+---
+
+### 2. I've been waiting eight years to make this hire
 226 reactions · 15 comments · 2 reposts
 
 "I've been waiting eight years to make this hire. Naomi Jung and I were interns together at Slack. Today she joins Flint AI as our fourth engineer, coming from Senior Staff Eng at Figma."
 
-Why it worked: Highest-engagement LinkedIn post in the window. Opener has a number ("eight years") and a curiosity gap. Full-circle story with a photo with name arrows. Hiring announcements outperform when they have a backstory, not a title.
+Why it worked: Opener has a number ("eight years") and a curiosity gap. Full-circle story with a photo with name arrows. Hiring announcements outperform when they have a backstory, not a title.
 
 ---
 
-### 2. We are now flint.com
+### 3. We are now flint.com
 190 reactions · 21 comments · 2 reposts
 
 "Big news: we are now flint.com. tryflint.com → flint.com. We named this company Flint AI for a reason. Flint is all early humans needed to carry. One small rock in your pocket and you could make fire anywhere you went. Fire is viral growth. Fire is how you signal you exist…"
@@ -215,7 +232,7 @@ Why it worked: Re-told the origin story on a moment of brand evolution. Each lin
 
 ---
 
-### 3. Saying goodbye to a teammate
+### 4. Saying goodbye to a teammate
 150 reactions · 6 comments · 1 repost
 
 "As a founder, it's bittersweet when it comes time to say goodbye…" [rooftop team photo]
@@ -224,7 +241,7 @@ Why it worked: Vulnerability plus a photo. Write the note for the audience, not 
 
 ---
 
-### 4. Stewart Butterfield mentor story
+### 5. Stewart Butterfield mentor story
 113 reactions · 12 comments
 
 "When I interned at Slack, then-CEO Stewart Butterfield personally responded to every product idea I shared. He showed me what a great founder-led company culture looks like, and it's shaped how I run…"
@@ -233,7 +250,7 @@ Why it worked: Named mentor without name-dropping for status. Lead with the spec
 
 ---
 
-### 5. First engineer and Head of Growth at Warp
+### 6. First engineer and Head of Growth at Warp
 100 reactions · 11 comments · 1 repost
 
 "I was the first engineer and Head of Growth at Warp. When I started, nobody had heard of us. By the time I left, we had half a million developers using the product every week."
@@ -242,7 +259,7 @@ Why it worked: Simple before/after with a clean number (500K WAUs). "When I star
 
 ---
 
-### 6. I turned down a return offer from Meta at 19
+### 7. I turned down a return offer from Meta at 19
 97 reactions · 3 comments
 
 "I turned down a return offer from Meta at 19. Not because it wasn't good. But because I'd realized something that summer that made the offer irrelevant…"
@@ -251,7 +268,7 @@ Why it worked: Counterintuitive opener creates a curiosity gap. Career-decision 
 
 ---
 
-### 7. 15 customer visits in 3 days
+### 8. 15 customer visits in 3 days
 89 reactions · 4 comments
 
 "I squeezed 15 customer and prospect visits in 3 days. Founders: book the flight. What you learn in one office visit, you'd never get from 50 Zooms. Modal, Cursor, Clay, Camber, Berry Street, and more."
@@ -262,7 +279,7 @@ Template: [Big number in tight window]. [Audience]: [imperative]. [1:N ratio fra
 
 ---
 
-### 8. Paying customers are up by 130%
+### 9. Paying customers are up by 130%
 78 reactions · 3 comments · 2 reposts
 
 "Paying customers are up by 130%. March was Flint AI's biggest month yet. Here's a recap of everything else that happened this month…"
@@ -271,7 +288,7 @@ Why it worked: Open with the metric that earns the read. A specific percentage i
 
 ---
 
-### 9. The best $120,000 we've spent is our office
+### 10. The best $120,000 we've spent is our office
 74 reactions
 
 "The best $120,000 we've spent at Flint AI is our office. It's our single biggest productivity investment."
@@ -280,7 +297,7 @@ Why it worked: Contrarian (remote is the default in this audience). Specific num
 
 ---
 
-### 10. April recap
+### 11. April recap
 66 reactions · 5 comments · 1 repost
 
 "April was the most eventful month in Flint AI's history. OpenAI featured us. We made the Prosumer AI 40 and rang the Nasdaq bell. And we threw a private screening for 200+ marketers in New York…"
@@ -289,7 +306,7 @@ Why it worked: Three-headline lead, then bullets. First paragraph is three short
 
 ---
 
-### 11. $6,000,000,000 worth of growth leaders
+### 12. $6,000,000,000 worth of growth leaders
 62 reactions · 13 comments
 
 "I gathered growth leaders from companies worth over $6,000,000,000 and I gave them homework. Let me explain. Over steak, they had to give live demos of agentic workflows, and they had to apply to the dinner with a workflow."
@@ -298,7 +315,7 @@ Why it worked: Written with zeros, not "$6B," forces a slower read. "I gave them
 
 ---
 
-### 12. Devil Wears Prada 2 SF screening
+### 13. Devil Wears Prada 2 SF screening
 62 reactions · 3 comments · 3 reposts
 
 "Hundreds of marketing leaders from Stripe, OpenAI, Notion, and Carta packed the Marina Theatre in San Francisco last Friday for our second 'Devil Wears Prada 2' screening…"
@@ -307,7 +324,7 @@ Why it worked: Four big logos in line one. Event recap structure: logos first, t
 
 ---
 
-### 13. Claude Code plugin
+### 14. Claude Code plugin
 54 reactions · 6 comments · 5 reposts
 
 "Claude Code added an official plugin for shipping landing pages. Here's how to use it to ship dozens of pages in minutes…"
@@ -316,7 +333,7 @@ Why it worked: Highest repost-to-reaction ratio on LinkedIn in this window. Ridi
 
 ---
 
-### 14. Russian ambassador
+### 15. Russian ambassador
 52 reactions · 3 comments
 
 "When I was 19, I performed for the Russian ambassador at the New York Russian Embassy. The twist is that I didn't speak a word of Russian…"
@@ -325,7 +342,7 @@ Why it worked: "The twist is" is the engine of the post. Zero connection to work
 
 ---
 
-### 15. Bike across Manhattan, 15 startups in 3 days
+### 16. Bike across Manhattan, 15 startups in 3 days
 45 reactions · 1 comment
 
 "I biked across Manhattan 3 days in a row to visit 15 of NYC's top AI startups. Here's the system I used to make it happen."

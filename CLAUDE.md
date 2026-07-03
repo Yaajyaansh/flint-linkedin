@@ -232,10 +232,40 @@ Checklist (fail on any single item):
 - [ ] X Article: header image flagged with Michelle, not scheduled
 - [ ] Reads naturally out loud — no sentence sounds written
 - [ ] Formatting: →, 1/, — used correctly for LinkedIn; no formatting/line breaks on X tweets
+- [ ] No salesy product mention — Flint mentioned through mechanism/action/proof, not a pitch sentence; any CTA is earned by proof stated earlier in the post
+- [ ] Contrarian/hot-take hook? Confirm it's anchored to a personal story or direct experience, not stated as pure industry opinion
 
 PASS → add `status: approved` to draft frontmatter → show to human
 FAIL → list exact line + violation → Writer revises → Checker reruns
 After 2 consecutive fails → escalate to human with violations listed
+
+---
+
+### Edit Learner
+
+Trigger: human provides an original Claude draft and Michelle's edited/final version of the same post — regardless of whether it happens right after the Writer step or days later when Michelle reviews something separately.
+
+This agent does not just log the diff. Its job is to make the system stop repeating whatever Michelle just corrected.
+
+**Steps:**
+1. Diff the original against Michelle's edit, line by line.
+2. For each meaningful change, classify it:
+   - Single banned word or exact phrase → `_system/forbidden/phrases.md`
+   - Sentence-level structure (reversal framing, rhetorical question, anaphora, asyndeton, "Most X" openers) → `_system/forbidden/sentence-structures.md`
+   - Broader AI-pattern (cliché opening, filler adverb, artificial symmetry, generic transition) → `_system/forbidden/writing-patterns.md`
+   - Voice/tone shift ("I" vs "we", a reference she adds/removes, a phrase she reaches for, something she'd "never say") → `flint/context/voice.md`
+   - Structural/template preference (how she opens or closes a specific post type, formatting choice) → `flint/writing/patterns.md`
+   - Hook-specific change → `flint/hooks/michelle-hook-templates.md`
+3. Skip pure typo fixes and factual corrections — not voice signal.
+4. For one-off stylistic swaps that don't obviously generalize: log them, but don't create a rule yet. If the same swap shows up in a second, separate diff, it's no longer one-off — promote it to a rule on the second occurrence.
+5. Append an entry to `flint/feedback/edit-log.md` using its template, for every classified change (including ones not promoted to a rule).
+6. For every change that does generate a rule, actually edit the canonical file identified in step 2 — add the word to the banned list, add the structure to forbidden patterns, update voice.md, etc. Don't stop at logging.
+7. Show the human a short summary: what changed, what rule was added (if any), which file was updated.
+
+Rules:
+- Never overwrite existing rules in canonical files — append/extend them.
+- Never delete entries from `flint/feedback/edit-log.md`.
+- If a Michelle edit contradicts an existing rule (e.g., she used an em dash on purpose, or used a phrase that's currently banned), flag the contradiction to the human instead of silently changing the rule. Rules only change on human confirmation when they contradict something already codified.
 
 ---
 
@@ -247,6 +277,7 @@ After 2 consecutive fails → escalate to human with violations listed
 4. Path B: present ideas → human picks one → check if needs A+
 5. After Hook Writer: human picks one of 3 hooks
 6. After Checker pass: human reviews full draft before anything is published or saved as final
+7. Edit Learner: if a rule change contradicts an existing forbidden/voice rule, confirm with human before changing it
 
 ---
 
@@ -270,3 +301,5 @@ Published: `flint/posts/published/[YYYY-MM-DD]-[slug].md`
 Never delete published posts. They are the voice model.
 
 When published: update `flint/ideas/ideas-queue.md` status to `published`.
+
+Edit diffs: `flint/feedback/edit-log.md`. Append-only log of every original-draft-vs-Michelle's-edit comparison, run by the Edit Learner sub-agent. Never delete entries.

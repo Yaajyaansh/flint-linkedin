@@ -1,0 +1,148 @@
+# Edit Log — Original Drafts vs. Michelle's Edits
+
+This is a running record of every time Michelle takes a Claude draft and edits it herself. It is a **log, not a rulebook** — the actual rules extracted from these edits live in their canonical files (`_system/forbidden/*.md`, `flint/context/voice.md`, `flint/writing/patterns.md`, `flint/hooks/michelle-hook-templates.md`). This file exists so we can trace *why* a rule was added and *when*, and so patterns that show up more than once get caught even if no single edit looked like a rule on its own.
+
+Never delete entries. Append only.
+
+---
+
+## How entries get created
+
+1. Human provides original draft + Michelle's edited/final version of the same post.
+2. Diff the two, line by line.
+3. Classify each meaningful change (see categories below).
+4. Log the entry using the template below.
+5. Route generalizable changes to the correct canonical file immediately — don't just log and stop.
+6. One-off factual corrections or unrepeatable stylistic swaps get logged but don't generate a new rule. If the same one-off shows up a second time across different posts, it's no longer one-off — promote it to a rule.
+
+## Categories and where they route
+
+| Category | Routes to |
+|---|---|
+| Single banned word or exact phrase | `_system/forbidden/phrases.md` |
+| Sentence-level structure (reversal framing, rhetorical question, anaphora, asyndeton, "Most X" openers) | `_system/forbidden/sentence-structures.md` |
+| Broader AI-pattern (cliché opening, filler adverb, artificial symmetry, generic transition) | `_system/forbidden/writing-patterns.md` |
+| Voice/tone shift ("I" vs "we", a reference she adds/removes, a phrase she reaches for, something she'd "never say") | `flint/context/voice.md` |
+| Structural/template preference (how she opens or closes a specific post type, formatting choice) | `flint/writing/patterns.md` |
+| Hook-specific change | `flint/hooks/michelle-hook-templates.md` |
+
+---
+
+## Entry template
+
+```
+## [YYYY-MM-DD] — [post slug or short topic label]
+
+**Original (Claude draft):**
+> ...
+
+**Michelle's edit:**
+> ...
+
+**What changed:** [one line — what she cut, added, or rewrote]
+**Category:** [from table above]
+**Generalizable:** yes/no — [if no, why this is a one-off]
+**Routed to:** [file] — [exact rule added, or "none — logged only"]
+```
+
+---
+
+## Entries
+
+## 2026-07-03 — 11x-connor-feedback-post
+
+**Original (Claude draft):**
+> Best feedback we've gotten in a while:
+>
+> "it was so easy to make a landing page i thought i was doing something wrong"
+>
+> That's what AI for marketing should feel like. Something that just handles it.
+>
+> With Flint it happens because you can ship landing pages without having to think about design, brand, or engineering.
+>
+> We spent a long time making it feel that simple.
+
+**Michelle's edit:**
+> Best feedback we've gotten in a while - came in over Slack from @Connor at 11x.
+>
+> He was showing Flint to someone and they were building a paid search landing page together.
+>
+> Their reaction: "it was so easy to make a landing page i thought i was doing something wrong."
+>
+> All brand context was already loaded into Flint. The page (matched to his brand + his ads) was two prompts away. What would've taken weeks to build before took minutes.
+>
+> And their conversions tripled.
+>
+> We spent a long time making it feel that simple.
+
+Michelle's overall note: "this is a super generic / vague post. nothing here is likeable about this. make posts more specific (ask Viktor - our AI knowledge slack bot for context)."
+
+### (a) No named source, no scene, no channel
+**What changed:** Added "came in over Slack from @Connor at 11x" and a one-line scene of what he and the prospect were doing.
+**Category:** Structural/template preference (testimonial posts need attribution as a structural element)
+**Generalizable:** yes — this is the core complaint ("super generic/vague," "nothing likeable")
+**Routed to:** `flint/writing/patterns.md` — added a "Customer feedback / testimonial" template requiring named source (person + company + channel), a scene, the quote, mechanism, and a number.
+
+### (b) Generic thesis statement cut
+**What changed:** Cut "That's what AI for marketing should feel like. Something that just handles it." entirely — no replacement.
+**Category:** Broader AI-pattern (generic category claim / thesis-states before earning it)
+**Generalizable:** yes
+**Routed to:** `_system/forbidden/writing-patterns.md` — new "Abstract Category Explanations" section, bullet on "X should feel like" claims.
+
+### (c) Vague mechanism replaced with concrete detail
+**What changed:** "you can ship landing pages without having to think about design, brand, or engineering" → "All brand context was already loaded into Flint. The page (matched to his brand + his ads) was two prompts away. What would've taken weeks to build before took minutes."
+**Category:** Broader AI-pattern (abstract category listing standing in for the real mechanism)
+**Generalizable:** yes — same failure mode as (b), listing categories instead of naming the artifact/action
+**Routed to:** `_system/forbidden/writing-patterns.md` — same new section, bullet on "without having to think about X, Y, or Z" constructions.
+
+### (d) Missing quantified result added
+**What changed:** Added "And their conversions tripled." — no result of any kind existed in the original.
+**Category:** Structural/template preference (testimonial/case-study posts need a hard number, not just the anecdote)
+**Generalizable:** yes
+**Routed to:** `flint/writing/patterns.md` — folded into the same new testimonial template (fifth required element: quantified result).
+
+### (e) Resource for specificity: Viktor
+**What changed:** N/A (operational note from Michelle, not a text edit) — she pointed to Viktor, Flint's internal AI knowledge Slack bot, as the source to check when a draft is too generic.
+**Category:** Workflow/resource, not a voice or forbidden-pattern rule
+**Generalizable:** yes
+**Routed to:** `flint/writing/workflow.md` (Edge cases — new entry for generic/vague drafts) and `flint/writing/patterns.md` (testimonial template) and `_system/forbidden/writing-patterns.md` (pointer in the new section).
+
+### (f) New first-party fact captured
+**What changed:** Connor/11x anecdote (quote, mechanism, tripled conversions) wasn't in `flint/context/first-party.md` before this post.
+**Category:** First-party fact, not a rule
+**Generalizable:** n/a — factual grounding
+**Routed to:** `flint/context/first-party.md` — added as a new line under Results & Proof Points.
+
+---
+
+## 2026-07-03 — katie-goldstein-origin-story
+
+**Original (Claude draft):**
+> Flint wouldn't exist without @Katie Goldstein.
+>
+> Story time: I met her at a Christmas party in 2024 and liked her energy so much that I tracked down her number through multiple people just to stay in touch.
+>
+> She thought Max and I would get along and that our values aligned, so she intro-ed us.
+>
+> Max and I met on Christmas eve. I was already heads down building and he was also locked in, so we met at a bar, and decided to do a work trial for a week.
+>
+> That was the start of Flint.
+>
+> Katie still comes by the office just to hang and help. This is her stopping by just last week on a whim. Just someone who believed in us before there was anything to believe in.
+
+**Michelle's edit:**
+> [same opening through "That was the start of Flint."]
+>
+> Fast forward to today: we're a team of 8, building the agentic website platform for lean marketing teams.
+>
+> Katie still comes by the office just to hang and help. This is her stopping by just last week on a whim. Just someone who believed in us before there was anything to believe in.
+>
+> If you want to join us, head over to flint(dot)com/careers.
+
+Michelle's note: "this is fine given its a team post and it will do okay. but the thing is that it doesn't talk about flint. try to find indirect ways to talk about flint / mention what flint does."
+
+### (a) Indirect product bridge line + careers CTA added to a personal/team story
+**What changed:** Inserted "Fast forward to today: we're a team of 8, building the agentic website platform for lean marketing teams." before the closer, and added a careers CTA at the very end.
+**Category:** Structural/template preference — but **flagged as a contradiction** first: `flint/writing/workflow.md` currently says Friday/Sunday personal posts get "no product push." This edit adds exactly that to a personal/team-origin post. Precedent exists in published posts too (e.g. "PS: we're hiring. Come work in the office you just watched.").
+**Generalizable:** Asked human directly — answer: **case-by-case, no blanket rule.** Do not change the "no product push" rule in `workflow.md` or `voice.md`.
+**Routed to:** Not routed to a canonical file. Logged here only, per human decision. When a personal/team-origin post shows up again, consider (don't default to) an indirect one-line bridge to what Flint does today + a soft CTA if the post is fundamentally about the team/company (not a pure personal milestone or observation) — but this is a judgment call each time, not a standing requirement.

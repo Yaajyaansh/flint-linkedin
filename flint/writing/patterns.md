@@ -109,6 +109,20 @@ Post within the hour. Two short sentences. No CTA. Let the timing be the post.
 ### Event recap
 Logos in line one. Takeaways in the middle. Callback to the event theme in the closer.
 
+### Reunion / web-of-outcomes (one photo, many payoffs)
+[Breaking news hook: major external event + how long ago + personal connection point.]
+From this one photo:
+> [Name] [what they did after]
+> [Names] [what they did after]
+> [Name] [what they're doing now]
+> [Connection between two of the above outcomes]
+[Playful interactive line: find me in the photo / spot the detail.]
+Thank you [community/accelerator/person]. [One-line conviction about why that community mattered.]
+
+Why it works: a single photo becomes proof of a whole network's worth of outcomes — the density is the momentum. Each line is a separate, verifiable payoff (an acquisition, a company founded, a hire), so the post reads as accumulating evidence rather than one anecdote. The interactive closer turns a static image into something people engage with. Give credit to the connector (accelerator/community/person) at the end — never take full credit for a network alone.
+
+Formatting note: this template uses `>` for each named beat instead of the standard `→`/`*` bullets — the callouts read like receipts stacking up, not a takeaways list. Reserve `>` for this dense, photo-anchored roll-call format only. See `top-posts.md`, "Cursor sold to SpaceX for $60B."
+
 ### Case study
 Lead with the customer's human angle, then the result.
 
@@ -116,6 +130,16 @@ Minimum specificity: the verb, the artifact, and the count.
 
 Bad: "What would've taken me weeks was done in minutes."
 Good: "Flint let me drop in a CSV and spin up hundreds of tailored pages."
+
+### Customer feedback / testimonial
+Best feedback we've gotten in a while - came in over Slack from [Name] at [Company].
+[One line of scene: what they were doing together when the feedback happened.]
+Their reaction: "[verbatim quote]."
+[Concrete mechanism: what was already loaded, matched, or skipped. Name the artifact, not the category — never "without having to think about design, brand, or engineering."]
+And [quantified result — conversion lift, time saved, revenue].
+[Closing line: the effort behind making it feel simple.]
+
+A testimonial post needs five things: named source (person + company + channel), a scene, the verbatim quote, the specific mechanism, and a hard number. Missing any one of these means the post isn't ready — go back for the missing piece (ask Viktor, Flint's internal AI knowledge Slack bot, if it's not already in `flint/context/first-party.md`) before publishing. A quote with no attribution and no number reads as generic no matter how good the quote is.
 
 ---
 
@@ -159,6 +183,7 @@ Based on real posts, Nov 2025–May 2026.
 - Specific-number tactical posts ("100 pages in 4 minutes"). These get reposted because they're useful.
 - One-liner shitposts. Founders rarely write them. It's an edge.
 - X Articles for thought leadership. The algorithm upranks them significantly — 41 likes can produce 15K impressions.
+- One photo + web-of-outcomes structure: naming everyone in a single photo and what they went on to do (acquisitions, companies founded, hires) creates stacking proof and reads as momentum. Ride real external news (an acquisition, a funding round) as the hook when Michelle has personal history with it. See "Cursor sold to SpaceX for $60B" — 250 reactions, the highest-engagement LinkedIn post logged so far.
 
 ### Do less of
 - Long product update threads. "Flint is live on ProductHunt" with four bullet points got 20 likes. "We dropped the try" (3 lines) got 130.

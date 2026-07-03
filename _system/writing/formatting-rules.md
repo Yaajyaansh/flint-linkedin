@@ -24,6 +24,18 @@ or
 
 ---
 
+## Blockquote Callouts (roll-call exception)
+
+`>` is reserved for one specific case: the "Reunion / web-of-outcomes" template (`flint/writing/patterns.md`), where a single photo gets a named callout per person. This reads as receipts stacking up, not a takeaways list — don't use `>` anywhere else, and don't use `→`/`*` for this specific format.
+
+```
+From this one photo:
+> Name did X
+> Name did Y
+```
+
+---
+
 ## Numbered Lists
 
 Use `1/` `2/` `3/` format — not `1.` `2.` `3.`

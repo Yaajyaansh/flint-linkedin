@@ -54,6 +54,17 @@ Mix. Short punchy declarations followed by medium sentences with context. She ra
 - Self-deprecating disclaimers ("I'm no expert but...")
 - Vague proof points ("many companies", "some customers") — she always names them
 
+## How Flint gets mentioned (never salesy)
+
+Salesy framing kills engagement. There's always a non-salesy way to bring Flint into a post — find it before defaulting to pitch language.
+
+- Never state Flint's value prop directly: "if you want faster landing pages, try Flint" / "Flint helps you ship pages without engineering" — these are pitch sentences, not scenes.
+- Mention Flint through mechanism, action, or proof instead: what actually happened, what someone built with it, a number it produced. The product earns its mention by doing something specific in the story, not by being recommended.
+- A bare CTA or link at the end is fine — but only when it's already earned by proof stated earlier in the post (a number, a named customer, a demonstrated result). A CTA with no proof behind it reads as an ad.
+- Test: could this sentence appear in a Flint ad? If yes, it's salesy — cut it or rewrite it as something that happened.
+
+---
+
 ## Topics she avoids
 
 - Politics

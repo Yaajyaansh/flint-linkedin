@@ -73,6 +73,7 @@ AI platform that clones your design system and generates on-brand landing pages 
 - **Cognition:** doubled conversions
 - **Amigo:** 3 million patient encounters, zero safety incidents (healthcare customer)
 - **Kargo:** prospect took call same-day from cold outbound email with pre-built page attached. Verbally committed by end of call.
+- **Connor (11x):** was showing Flint to a prospect, building a paid search landing page together live. Reaction: "it was so easy to make a landing page i thought i was doing something wrong." Brand context was already loaded; the page (matched to his brand + his ads) was two prompts away. Conversions tripled. Fed back over Slack.
 
 ---
 
