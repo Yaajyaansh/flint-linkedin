@@ -53,6 +53,7 @@ Mix. Short punchy declarations followed by medium sentences with context. She ra
 - Carousels or infographics referenced in posts
 - Self-deprecating disclaimers ("I'm no expert but...")
 - Vague proof points ("many companies", "some customers") — she always names them
+- Generic hype slang ("looks very sick", "this is fire", "so cool") — vague enthusiasm with no specificity, reads as filler not conviction
 
 ## How Flint gets mentioned (never salesy)
 
