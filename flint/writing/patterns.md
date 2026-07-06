@@ -143,6 +143,20 @@ A testimonial post needs five things: named source (person + company + channel),
 
 ---
 
+## Hook payoff (tie the close back to the hook)
+
+If the hook introduces a specific image, metaphor, or claim, the post must return to that exact image once, later, after it's been earned by proof. A hook that's never paid off reads like a headline sitting on top of an unrelated post.
+
+Bad (no payoff): Hook — "For months, I've told our engineers we're building one thing: a machine where a founder puts a dollar into ads and gets ten back out." Post gives the product explanation and customer results, then ends on a generic CTA. The machine is never mentioned again.
+
+Good (payoff): Same hook, same proof section, then: "For Boompop, we helped their one dollar stretch as far as their ten used to. Closer to my dream of the machine." The 10x image from the hook resolves against a real, named result.
+
+Rule: after you've written the proof (the number, the named customer, the mechanism), go back and find one sentence that returns to the hook's specific image or ratio. Don't just close on a generic thesis or a bare CTA — close on the thing the hook promised.
+
+Test: read the hook and the closing line back to back, nothing else. If they don't sound like two ends of the same thread, the payoff is missing.
+
+---
+
 ## Closing lines
 
 The closing line must distinguish, not describe.

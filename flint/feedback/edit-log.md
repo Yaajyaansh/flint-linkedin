@@ -146,3 +146,28 @@ Michelle's note: "this is fine given its a team post and it will do okay. but th
 **Category:** Structural/template preference — but **flagged as a contradiction** first: `flint/writing/workflow.md` currently says Friday/Sunday personal posts get "no product push." This edit adds exactly that to a personal/team-origin post. Precedent exists in published posts too (e.g. "PS: we're hiring. Come work in the office you just watched.").
 **Generalizable:** Asked human directly — answer: **case-by-case, no blanket rule.** Do not change the "no product push" rule in `workflow.md` or `voice.md`.
 **Routed to:** Not routed to a canonical file. Logged here only, per human decision. When a personal/team-origin post shows up again, consider (don't default to) an indirect one-line bridge to what Flint does today + a soft CTA if the post is fundamentally about the team/company (not a pure personal milestone or observation) — but this is a judgment call each time, not a standing requirement.
+
+---
+
+## 2026-07-07 — google-ads-agent-launch
+
+**Original (Claude draft):**
+> For months, I've told our engineers we're building one thing: a machine where a founder puts a dollar into ads and gets ten back out.
+>
+> Today we're launching it:
+>
+> [product explanation, customer proof — Boompop 10x in 14 days, negative keywords for Forus, ad group fixes for 11x]
+>
+> Connect your Google Ads account at flint.com. 14-day free trial.
+
+**Michelle's edit:**
+> [same hook, same body] ... For Boompop, we helped their one dollar stretch as far as their ten used to. Closer to my dream of the machine.
+>
+> Connect your Google Ads account at flint.com. 14-day free trial.
+
+Human's note: "make sure hooks have a proper closing (ideally they should tie back in later during the post)... originally this post just had the hook and then no sentence like [the machine payoff line]."
+
+**What changed:** Added one sentence right before the CTA that returns to the exact "dollar in, ten out / machine" image from the hook, resolved against the named Boompop result.
+**Category:** Structural/template preference (how a post closes)
+**Generalizable:** yes — this is a standing principle (hook makes a specific claim/image → post must return to it before closing), not a one-off swap
+**Routed to:** `flint/writing/patterns.md` — added new "Hook payoff (tie the close back to the hook)" section, placed directly before "Closing lines."
