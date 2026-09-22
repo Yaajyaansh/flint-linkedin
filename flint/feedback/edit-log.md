@@ -171,3 +171,36 @@ Human's note: "make sure hooks have a proper closing (ideally they should tie ba
 **Category:** Structural/template preference (how a post closes)
 **Generalizable:** yes — this is a standing principle (hook makes a specific claim/image → post must return to it before closing), not a one-off swap
 **Routed to:** `flint/writing/patterns.md` — added new "Hook payoff (tie the close back to the hook)" section, placed directly before "Closing lines."
+
+---
+
+## 2026-09-22 — hackthenorth-judging-post
+
+**Original (Claude draft closer):**
+> Had a lot of fun judging alongside some incredible people too:
+
+**Michelle's note:** "but this has so many filler shit that doesnt say anything like. 'Had a lot of fun judging alongside' some incredible people too: A lot of words that say nothing."
+
+### (a) Explicit new banned words
+**What changed:** Founder directly requested "honestly," "genuinely," and "probably" be added to the forbidden words list, then separately added "actually." "Genuinely" was already banned; added "honestly," "probably," and "actually."
+**Category:** Single banned word or exact phrase
+**Generalizable:** yes — explicit standing instruction, not post-specific
+**Routed to:** `_system/forbidden/phrases.md` — added "honestly, probably, actually" to Banned Words. Note: the HackTheNorth redraft above used "actually" three times before this rule was added — needs a re-pass now that it's banned.
+
+### (b) Empty gratitude/closer filler
+**What changed:** "Had a lot of fun judging alongside some incredible people too:" flagged as saying nothing — no name, no specific moment, just a vibe statement functioning as a transition into a tag list.
+**Category:** Broader AI-pattern (generic transition / filler that carries no information)
+**Generalizable:** yes — same failure mode as other flagged filler (compliment-openers, hospitality phrasing already banned)
+**Routed to:** `_system/forbidden/writing-patterns.md` — new bullet under "Generic AI Patterns."
+
+### (c) Raw material upgrade: the judging question
+**What changed:** Founder supplied a sharper, more specific detail mid-feedback — the question she actually asks every team ("what's difficult about your project beyond stitching a bunch of APIs together?") and the pattern in the best answers (new algorithms, serialization, architecture design). This is stronger and more specific than the original three-project list alone.
+**Category:** First-party fact / raw material, not a rule
+**Generalizable:** n/a — factual grounding for this post
+**Routed to:** Used directly in the redraft; not added to a canonical file (too post-specific to generalize beyond "ask what's hard beneath the surface" as a general interviewing instinct, which is already implicit in her voice).
+
+### (d) Promotion: "find a way to talk about Flint" is now a standing rule
+**What changed:** Founder dropped the Flint pivot from the HackTheNorth post and, separately, said to add an instruction to actively find creative ways to mention Flint — giving two concrete techniques as examples: probe for a personal-history parallel ("how did you used to do hackathons at Yale?"), or find a Flint-culture mirror ("Flint also has a big hackathon culture"). This is the same note Michelle gave on 2026-07-03 (katie-goldstein-origin-story, entry (a) above: "try to find indirect ways to talk about flint / mention what flint does"), which was logged only at the time because it was a single occurrence and the human explicitly said no blanket rule.
+**Category:** Structural/template preference (how the Writer finds a product tie-in)
+**Generalizable:** yes — second occurrence across separate posts promotes this from a one-off to a rule, per the promotion criterion in this file's header.
+**Routed to:** `CLAUDE.md` — new "Finding the Flint angle" subsection under the Writer sub-agent, with the two techniques (personal-history parallel, Flint-culture mirror). Also cross-referenced in `flint/writing/workflow.md` Edge cases. Does not override the Friday/Sunday "no product push" default — applies only when a Flint tie-in is actually required (Monday, or on request) and isn't obvious.

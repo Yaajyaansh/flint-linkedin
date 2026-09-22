@@ -187,6 +187,12 @@ Reads:
 **Photo requirement:**
 Every LinkedIn post needs a photo. If a photo is attached, the body must narrate it in at least one line. Name the people. Say what they're doing. A photo dropped in without a written tie-in is a broken post even if the prose is fine. Embed links in the post body — never in comments (LinkedIn shadow-bans comment links).
 
+**Finding the Flint angle:**
+When a post needs to tie back to Flint (every Monday post, or any post the human asks to connect) but the raw material has no obvious product angle, don't default to a generic pivot or drop the tie-in and go product-free. Actively hunt for a creative bridge first. Two techniques that consistently work:
+1. **Ask for a personal-history parallel.** Look for a detail from Michelle's own past that maps onto the scene. (E.g., for a hackathon-judging post: did she hack in college too? What was that like?)
+2. **Look for a Flint-culture mirror.** Check whether Flint itself does something that echoes the theme — an internal practice, event, or habit — rather than reaching for a straight product-capability pitch. (E.g., does Flint have its own hackathon culture?)
+Either gives a real, earned mention instead of a bolt-on CTA. This does not override the Friday/Sunday "no product push" default — it applies when a Flint tie-in is actually required and isn't obvious.
+
 **How to use published posts while writing:**
 - Find 2-3 published posts with a similar tone or topic to the current draft
 - Notice sentence rhythm, how Michelle opens body paragraphs, how she closes
@@ -211,6 +217,7 @@ Reads:
 - `_system/forbidden/phrases.md` — includes the full banned words list
 - `_system/forbidden/sentence-structures.md`
 - `_system/forbidden/writing-patterns.md`
+- `_system/avoid-ai-writing.md` — general AI-writing-pattern detector (vendored from [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)). Run in detect mode on every draft as a second, independent AI-ism pass, on top of the Michelle-specific `_system/forbidden/` checks above — it catches general AI tells (chatbot openers, inflated significance, hedge stacking, structural symmetry) that the Michelle-specific lists don't cover. See `flint/writing/workflow.md` for how the two checks divide the work.
 
 Checklist (fail on any single item):
 - [ ] No forbidden phrases anywhere in the post
@@ -234,6 +241,7 @@ Checklist (fail on any single item):
 - [ ] Formatting: →, 1/, — used correctly for LinkedIn; no formatting/line breaks on X tweets
 - [ ] No salesy product mention — Flint mentioned through mechanism/action/proof, not a pitch sentence; any CTA is earned by proof stated earlier in the post
 - [ ] Contrarian/hot-take hook? Confirm it's anchored to a personal story or direct experience, not stated as pure industry opinion
+- [ ] Ran `_system/avoid-ai-writing.md` in detect mode as a second AI-ism pass — no unresolved findings, or any left in were confirmed intentional
 
 PASS → add `status: approved` to draft frontmatter → show to human
 FAIL → list exact line + violation → Writer revises → Checker reruns

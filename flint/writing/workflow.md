@@ -29,7 +29,7 @@
 
 ## AI-ism audit (run before the pre-submit checklist)
 
-After drafting, scan the draft for AI patterns against `_system/forbidden/` files.
+After drafting, scan the draft for AI patterns against `_system/forbidden/` files, then run it a second time against `_system/avoid-ai-writing.md` — a third-party AI-writing-pattern skill ([conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing), MIT licensed, vendored into this repo). Run both checks on every draft before it goes to the Checker. They catch different things: `_system/forbidden/` is Michelle-specific (her banned words, her sentence structures, her voice); `avoid-ai-writing.md` is general AI-tell detection (chatbot openers, inflated significance, roundabout verbs, promotional modifiers, structural tells) that the Michelle-specific list doesn't try to cover.
 
 Two modes — choose one based on where the draft is:
 
@@ -37,7 +37,7 @@ Two modes — choose one based on where the draft is:
 
 **Rewrite mode:** use when the draft needs a full clean. Flags, rewrites, then runs a second-pass audit on the rewritten version before returning it.
 
-`mechanics.md` (the forbidden files) covers banned words while drafting. The audit catches what survives: clusters, density, and patterns the banned list doesn't reach.
+`_system/forbidden/` covers banned words and Michelle-specific patterns while drafting. `_system/avoid-ai-writing.md` catches what survives: clusters, density, and general AI-tells neither the banned list nor the sentence-structure rules reach. Run it in detect mode by default so it flags without silently rewriting Michelle's voice — only use its rewrite mode if a draft needs a full AI-ism clean before the Checker sees it.
 
 ---
 
@@ -79,3 +79,5 @@ Run this before sending. Fix any failure before submitting.
 **Involving another person:** Flag Michelle before publishing. She needs their approval.
 
 **Draft feels generic or vague, especially a testimonial/case-study post:** Don't paper over it with abstract reasoning ("without having to think about design, brand, or engineering") or a generic thesis statement ("that's what X should feel like"). Go get the real specific — ask Viktor (Flint's internal AI knowledge Slack bot) for the mechanism, the number, or the named source if it's not already in `flint/context/first-party.md`.
+
+**Post needs a Flint tie-in but the raw material has no obvious one (Monday, or on request):** Don't default to a generic/forced pivot, and don't just drop the tie-in and go product-free. Hunt for a creative bridge: ask the founder for a personal-history parallel to the scene, or check whether Flint itself does something that mirrors the theme (internal culture, practice, event). See `CLAUDE.md` — Writer sub-agent, "Finding the Flint angle." Confirmed as a standing pattern after showing up twice (Katie Goldstein origin-story post, HackTheNorth judging post) — see `flint/feedback/edit-log.md`.

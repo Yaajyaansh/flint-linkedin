@@ -31,6 +31,7 @@ Patterns the Writer avoids. The Checker scans for these.
 - Over-explaining context the reader already knows
 - Listing things in threes for aesthetic reasons rather than content reasons
 - Starting multiple consecutive sentences with the same word
+- Empty gratitude/closer filler that names no one and describes no specific moment: "Had a lot of fun judging/working alongside some incredible people." Says nothing a reader can picture. Either name the person and what they actually did, or cut the line entirely.
 
 ---
 
