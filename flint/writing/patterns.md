@@ -143,6 +143,14 @@ A testimonial post needs five things: named source (person + company + channel),
 
 ---
 
+## Reacting to a screenshot of someone else's post
+
+When the attached media is a screenshot of another person's tweet/post (a QT-style reaction), the copy has to stay visibly in conversation with that specific screenshot for the whole post, not just the opening line. LinkedIn readers only have what's in the image as context — they don't have Twitter, the original thread, or any other background. If the body drifts into a related-but-different point (even a sharper, smarter one), the reader sees a mismatch between the screenshot and the copy and bounces, because it reads like the post isn't actually about what it's quoting.
+
+Test: could every paragraph plausibly appear as a reply to the specific claim in the screenshot? If a paragraph would make sense as a reaction to a different post entirely, it's drifted — pull it back to the screenshot's actual claim or cut it.
+
+---
+
 ## Hook payoff (tie the close back to the hook)
 
 If the hook introduces a specific image, metaphor, or claim, the post must return to that exact image once, later, after it's been earned by proof. A hook that's never paid off reads like a headline sitting on top of an unrelated post.

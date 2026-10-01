@@ -200,7 +200,24 @@ Human's note: "make sure hooks have a proper closing (ideally they should tie ba
 **Routed to:** Used directly in the redraft; not added to a canonical file (too post-specific to generalize beyond "ask what's hard beneath the surface" as a general interviewing instinct, which is already implicit in her voice).
 
 ### (d) Promotion: "find a way to talk about Flint" is now a standing rule
+
 **What changed:** Founder dropped the Flint pivot from the HackTheNorth post and, separately, said to add an instruction to actively find creative ways to mention Flint — giving two concrete techniques as examples: probe for a personal-history parallel ("how did you used to do hackathons at Yale?"), or find a Flint-culture mirror ("Flint also has a big hackathon culture"). This is the same note Michelle gave on 2026-07-03 (katie-goldstein-origin-story, entry (a) above: "try to find indirect ways to talk about flint / mention what flint does"), which was logged only at the time because it was a single occurrence and the human explicitly said no blanket rule.
 **Category:** Structural/template preference (how the Writer finds a product tie-in)
 **Generalizable:** yes — second occurrence across separate posts promotes this from a one-off to a rule, per the promotion criterion in this file's header.
 **Routed to:** `CLAUDE.md` — new "Finding the Flint angle" subsection under the Writer sub-agent, with the two techniques (personal-history parallel, Flint-culture mirror). Also cross-referenced in `flint/writing/workflow.md` Edge cases. Does not override the Friday/Sunday "no product push" default — applies only when a Flint tie-in is actually required (Monday, or on request) and isn't obvious.
+
+---
+
+## 2026-09-28 — codie-sanchez-roas-reaction-post
+
+**Original (Claude draft):** Opened by agreeing with a screenshotted Codie Sanchez tweet ("no reason to touch paid ads before $5-10M revenue"), then pivoted the body into a different point entirely: general ROAS-vs-profitability and blended-vs-marginal-ROAS mechanics. Each point was individually sound but answered "how do you measure ads correctly," not Codie's actual claim ("should you be running ads at all yet").
+
+**Michelle's note:** "I really like the content of this post. It feels really smart. The problem is that it is unrelated to the tweet... people who are on LinkedIn don't check Twitter, and the only context you've given them is the screenshot. They're going to see the mismatch between the media and the post copy and then bounce because it's not matching."
+
+**What changed:** Rewrote so every paragraph stays legibly in conversation with Codie's specific claim (revenue threshold, proving organic demand before paid) instead of drifting into an adjacent-but-different ROAS-mechanics point, even though that content was individually strong.
+
+**Category:** Structural/template preference (how a reaction-to-a-screenshot post has to relate to its own attached media)
+
+**Generalizable:** yes — this isn't about ROAS content specifically, it's about any post where a screenshot of someone else's post is the attached media. The reader has zero context beyond what's in the image.
+
+**Routed to:** `flint/writing/patterns.md` — new "Reacting to a screenshot of someone else's post" section, with a test ("could every paragraph plausibly appear as a reply to the specific claim in the screenshot?").

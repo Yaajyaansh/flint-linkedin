@@ -1,9 +1,13 @@
 # ICP — Flint (flint.com)
 
+## 2026 update: ICP has sharpened to performance marketers
+
+As of the 2026 repositioning (see `first-party.md` — "2026 repositioning" section), Flint's primary ICP is stated explicitly as **performance marketers** — specifically people who own and actively spend against a Google Ads account, not demand gen/growth marketers broadly. The profile below still holds directionally (same company size, stage, industry), but sharpen the framing: this person's day job is the ad account itself (bids, budgets, search terms, negative keywords, landing page assignment per ad group), and their core anxiety is CAC creeping up as they scale spend — not "we need more pages" in the abstract. The site's own CTA banner states this directly: "Scaling Spend Shouldn't Scale Your CAC."
+
 ## Primary ICP
 
 **Who they are:**
-Demand gen manager, growth marketer, or ABM lead at a B2B SaaS / AI company. IC or small-team lead. Reports to VP Marketing or CMO.
+Performance marketer / paid search lead — demand gen manager, growth marketer, or ABM lead — at a B2B SaaS / AI company, running meaningful spend on Google Ads. IC or small-team lead. Reports to VP Marketing or CMO.
 
 **Company profile:**
 - Size: 30–500 employees
